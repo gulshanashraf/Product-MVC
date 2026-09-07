@@ -64,31 +64,7 @@ MONGODB_URL=your_mongodb_connection_string
 
 Do not upload your `.env` file or MongoDB credentials to GitHub.
 
-## Running Locally
 
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the server:
-
-```bash
-npm start
-```
-
-The backend runs locally on:
-
-```text
-http://localhost:5050
-```
-
-Products API:
-
-```text
-http://localhost:5050/products
-```
 
 ## Purpose
 
