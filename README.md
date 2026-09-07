@@ -53,19 +53,6 @@ backend/
 ├── package.json
 └── README.md
 ```
-
-## Environment Variables
-
-Create a `.env` file and add:
-
-```env
-MONGODB_URL=your_mongodb_connection_string
-```
-
-Do not upload your `.env` file or MongoDB credentials to GitHub.
-
-
-
 ## Purpose
 
 This backend is developed as the server-side API for an ecommerce clothing storefront and provides product management functionality through RESTful CRUD operations.
