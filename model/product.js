@@ -3,20 +3,35 @@ import mongoose from "mongoose";
 const productSchema = new mongoose.Schema({
   id: {
     type: String,
-    required: true, 
+    required: true,
   },
+
   name: {
     type: String,
   },
+
   price: {
     type: Number,
   },
+
   imageURL: {
     type: String,
   },
+
   desc: {
     type: String,
   },
+
+  category: {
+    type: String,
+  },
+
+  stock: {
+    type: Number,
+    default: 0,
+  },
 });
+
 const Product = mongoose.model("Product", productSchema);
+
 export default Product;
