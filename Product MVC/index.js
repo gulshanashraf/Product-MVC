@@ -13,8 +13,11 @@ connectDB();
 
 app.use(
   cors({
-  
-    methods: ["GET", "POST", "PUT", "DELETE"],
+    origin: [
+      "http://localhost:5173",
+      "https://gulshan-ecommerce.netlify.app",
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   })
 );
 
